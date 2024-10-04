@@ -1,24 +1,26 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as*;
 section{
-    .pizza-section{
-        margin: 0 auto;
+    .section{
         width: 80%;
-        align-items: center;
-        margin-top: 5em;
+    }
+}
+    
         .chicken{
             @include flex(space-between,center);
             gap:20px;
-            border-bottom: 2px grey solid;
+            border-bottom: 2px ;
             margin-top: 3em;
             }
            
             
-        }
-    }
+
+    
 
     .tasty{
         margin-top: 7em;
+        width: 80%;
+        
 @include flex(space-between,center);
 .kebab{
     margin-top: -5em;
@@ -44,7 +46,10 @@ section{
 }
 .chicken{
     @include flex (center,center);
-    gap:10%
+    gap:10%;
+
+    .highlight{
+        border-bottom: 2px;
 }
 .view-btn{
     background-color: $primary-color;
@@ -53,4 +58,9 @@ section{
  justify-content: center;
  border-radius: 100px;
  margin-left: 50%;
+}
+.hr{
+    width:70%
+}
+
 }

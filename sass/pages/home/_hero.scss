@@ -9,7 +9,8 @@ section{.hero-section{
     }
     span{
         display: inline-block;
-        &.highlight{color:$primary-color}
+        &.highlight{color:$primary-color;
+        font-size:3.3rem;}
     }
     .input{padding:10px 30px;
     margin-top: 2em;}
@@ -21,6 +22,7 @@ section{.hero-section{
             background-color: $light-grey;
             padding:30px;
             margin-top: 2em;
+            line-height: 3;
            
             
 
@@ -38,6 +40,7 @@ section{.hero-section{
 .star{
     border-radius: 50%;
     background-color: black;
+    margin-top: -1em;
 }
 
 .view-btn{
@@ -45,5 +48,10 @@ section{.hero-section{
     @include flex(center, center);
     padding:20px;
 }
+    }
+    .search{
+        padding: 15px;
+        background-color: #000;
+        color: white;
     }
     

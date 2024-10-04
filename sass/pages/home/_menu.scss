@@ -25,11 +25,15 @@ section{
 }
 .yummy{
     background-color: $light-grey; 
+    line-height: 2;
+    font-size: 1.3rem;
+    align-items: center;
     .add{
         background-color: black;
         color: white;
         padding: 10px 30px;
-        border-radius: 10px;
+       
+        
         
     }
 }
@@ -37,7 +41,8 @@ section{
 
 
 #new{
-    margin-left: 40%;
+    margin-left: 55%;
+    
     
 }#for{
     margin-left: 35%;
@@ -47,6 +52,13 @@ section{
     color:white;
  display: flex;
  justify-content: center;
- border-radius: 100px;
  margin-left: 50%;
+}
+.span{
+    border-bottom: 4px solid $primary-color;
+    color: $primary-color;
+}
+.highlight{
+    color:$primary-color;
+    font-size: 1.5rem;
 }
