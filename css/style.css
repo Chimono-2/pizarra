@@ -19,7 +19,7 @@ a {
 }
 
 nav {
-  background-color: lightgrey;
+  background-color: #F4F7FB;
 }
 nav .nav {
   display: flex;
@@ -27,6 +27,7 @@ nav .nav {
   align-items: center;
   flex-direction: row;
   flex-wrap: no-wrap;
+  font-size: 1.5rem;
 }
 nav .nav .nav-center ul {
   display: flex;
@@ -46,6 +47,7 @@ nav .nav .nav-right {
   align-items: center;
   flex-direction: row;
   flex-wrap: no-wrap;
+  font-size: 1.5rem;
   gap: 20px;
 }
 nav .nav .nav-right .fa-bars {
@@ -59,4 +61,292 @@ nav .nav .nav-right .fa-bars {
   nav .nav .nav-right .fa-bars {
     display: inline-block;
   }
+}
+section .hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 80%;
+}
+section .hero-section h1 {
+  font-size: 3.3rem;
+}
+section .hero-section span {
+  display: inline-block;
+}
+section .hero-section span.highlight {
+  color: orange;
+}
+section .hero-section .input {
+  padding: 10px 30px;
+  margin-top: 2em;
+}
+section .hero-section .reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+}
+section .hero-section .reviews .cutlery {
+  background-color: #F4F7FB;
+  padding: 30px;
+  margin-top: 2em;
+}
+section .hero-section .hero-left {
+  align-items: center;
+}
+section .hero-section .hero-left .hero-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+}
+section .star {
+  border-radius: 50%;
+  background-color: black;
+}
+section .view-btn {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+section .pizza-section {
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  margin-top: 5em;
+}
+section .pizza-section .chicken {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+  gap: 20px;
+  border-bottom: 2px grey solid;
+  margin-top: 3em;
+}
+
+.tasty {
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+}
+.tasty .kebab {
+  margin-top: -5em;
+}
+.tasty .yummy {
+  background-color: #F4F7FB;
+}
+.tasty .yummy .add {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#new {
+  margin-left: 40%;
+}
+
+#for {
+  margin-left: 35%;
+}
+
+.view-btn {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  margin-left: 50%;
+}
+
+section .about {
+  display: flex;
+  align-items: start;
+  margin: 0 auto;
+  width: 80%;
+  gap: 100px;
+  margin-top: 10em;
+}
+section p + h1 {
+  font-size: 3rem;
+}
+section span.highlight {
+  color: orange;
+}
+
+.fresh {
+  padding-top: 3em;
+}
+
+.features {
+  display: flex;
+  padding: 50px;
+  background-color: #F4F7FB;
+}
+.features .feature {
+  box-shadow: 0 4px 6px lightgrey;
+}
+
+.features-icon {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.you {
+  box-shadow: 0 4px 6px lightgrey;
+}
+
+.me {
+  box-shadow: 0 4px 6px lightgrey;
+}
+
+section .contact {
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  margin-top: 10em;
+}
+section .contact .location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+  gap: 5px;
+  margin-top: 2em;
+}
+section .contact .support {
+  padding: 20px;
+  width: 250px;
+  background-color: #F4F7FB;
+  border-radius: 10px;
+}
+section #old {
+  margin-left: 40%;
+}
+section #four {
+  margin-left: 35%;
+}
+section .mail {
+  margin-left: 30%;
+  margin-top: -20em;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #000;
+  padding-top: 2em;
+  margin-top: 6%;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+}
+footer .footer-content ul {
+  color: white;
+}
+footer .footer-right {
+  color: white;
+}
+footer .footer-right .type {
+  padding: 1em;
+}
+footer .footer-right .subscribe {
+  padding: 1em;
+  background-color: orange;
+  color: white;
+}
+
+section .pizza-section {
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  margin-top: 5em;
+}
+section .pizza-section .chicken {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+  gap: 20px;
+  border-bottom: 2px grey solid;
+  margin-top: 3em;
+}
+
+.tasty {
+  margin-top: 7em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+}
+.tasty .kebab {
+  margin-top: -5em;
+}
+.tasty .yummy {
+  background-color: #F4F7FB;
+}
+.tasty .yummy .add {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+#new {
+  margin-left: 40%;
+}
+
+#for {
+  margin-left: 35%;
+}
+
+.chicken {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  font-size: 1.5rem;
+  gap: 10%;
+}
+
+.view-btn {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  margin-left: 50%;
 }

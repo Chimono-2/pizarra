@@ -1,0 +1,26 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+footer{
+    background-color: #000;
+    padding-top:2em;
+    margin-top: 6%;
+    .footer-content{
+        @include flex(space-between ,center);
+        ul{
+            color: white;
+            
+            }
+        }
+        .footer-right{
+            color: white;
+            .type{
+                padding: 1em;
+                
+                }
+                .subscribe{
+                    padding: 1em;
+                    background-color: $primary-color;
+                    color:white;
+            }
+    }
+}

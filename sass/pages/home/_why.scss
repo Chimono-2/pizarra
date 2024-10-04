@@ -1,0 +1,49 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+section{
+    .about{
+        display: flex;
+        align-items: start;
+        margin: 0 auto;
+        width: 80%;
+        gap:100px;
+        margin-top: 10em;
+        }
+        p+h1{
+            font-size: 3rem;
+        }
+        span{
+            &.highlight{color:$primary-color};
+        }
+    }
+    .fresh{ padding-top: 3em;
+    }
+
+    .features{
+        display: flex;
+        padding: 50px;
+        background-color: #F4F7FB;
+        
+        .feature{
+             box-shadow: 0 4px 6px lightgrey }
+             
+
+        }
+    .features-icon{
+        border-radius: 50%;
+        background-color: black;
+        }
+        .you{
+            box-shadow: 0 4px 6px lightgrey;
+        }
+        .me{
+            box-shadow: 0 4px 6px lightgrey;
+        }
+        .text{
+            ;
+        }
+        
+        
+    
+ 
+

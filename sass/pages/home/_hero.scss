@@ -1,1 +1,49 @@
-@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+section{.hero-section{
+    @include flex(space-between,center);
+    margin: 0 auto;
+    width: 80%;
+    h1{
+        font-size: 3.3rem;
+    }
+    span{
+        display: inline-block;
+        &.highlight{color:$primary-color}
+    }
+    .input{padding:10px 30px;
+    margin-top: 2em;}
+    .reviews{
+        @include flex(space-between,center);
+       
+        
+        .cutlery{
+            background-color: $light-grey;
+            padding:30px;
+            margin-top: 2em;
+           
+            
+
+        }
+    }
+    .hero-left{
+       // @include flex(space-between,center);//
+        align-items: center;
+        .hero-center{
+            @include flex(center,center,column);
+        }
+    }
+}
+
+.star{
+    border-radius: 50%;
+    background-color: black;
+}
+
+.view-btn{
+    margin-top: 2em;
+    @include flex(center, center);
+    padding:20px;
+}
+    }
+    

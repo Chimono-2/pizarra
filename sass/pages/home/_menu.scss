@@ -1,0 +1,52 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as*;
+section{
+    .pizza-section{
+        margin: 0 auto;
+        width: 80%;
+        align-items: center;
+        margin-top: 5em;
+        .chicken{
+            @include flex(space-between,center);
+            gap:20px;
+            border-bottom: 2px grey solid;
+            margin-top: 3em;
+            }
+           
+            
+        }
+    }
+
+    .tasty{
+        margin-top: 7em;
+@include flex(space-between,center);
+.kebab{
+    margin-top: -5em;
+}
+.yummy{
+    background-color: $light-grey; 
+    .add{
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 10px;
+        
+    }
+}
+    }
+
+
+#new{
+    margin-left: 40%;
+    
+}#for{
+    margin-left: 35%;
+}
+.view-btn{
+    background-color: $primary-color;
+    color:white;
+ display: flex;
+ justify-content: center;
+ border-radius: 100px;
+ margin-left: 50%;
+}
